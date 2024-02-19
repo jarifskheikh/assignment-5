@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart project of js </title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header  class="md:container md:mx-auto font-manrope">
+        <!-- nave bar of the web site  -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li>
+                      <a>About</a>
+                    </li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-5xl bolder font-bold">J- Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li>
+                  <a>About</a>
+                </li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn  bg-lime-50 text-green-400">Bus <i class="fas fa-bus"></i> <img src="images/bus-icon.png" alt=""> </a>
+            </div>
+          </div>
+        <!-- nave bar of the web site end  -->
+        <br>
+        <br>
+        <!-- The paribahn banner  start  -->
+          <div class="hero min-h-screen rounded-2xl " style="background-image: url(images/banner.png);">
+            <div class=" bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">End-to-End Travel With</h1>
+                <h1 class="mb-5 text-5xl font-bold">J paribahan</h1>
+                <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined  </p>
+                <button class="btn bg-lime-400 rounded-full ">Buy Tickets</button>
+              </div>
+            </div>
+          </div>
+         <br>
+         <br>
+        <!-- The paribahan banner end -->
+        <!-- banner some structure -->
+       <div class="flex gap-32 px-12 z-10">
+         <!-- 1 -->
+         <div class="card w-96 bg-base-100 shadow-xl ">
+          <div class="card-body">
+            <div class="card-actions justify-end">
+            </div flex>
+            <div><img src="images/people.png" alt=""></div>
+            <h1>500K+</h1>
+            <p>Registered users</p>
+          </div>
+        </div>
+         <!-- 2 -->
+         <div class="card w-96 bg-base-100 shadow-xl">
+          <div class="card-body">
+            <div class="card-actions justify-end">
+            </div flex>
+            <div><img src="images/ticket-cupon.png" alt=""></div>
+            <h1>1.7 lacks</h1>
+            <p>Tickets sold</p>
+          </div>
+        </div>
+         <!-- 3-->
+         <div class="card w-96 bg-base-100 shadow-xl">
+          <div class="card-body">
+            <div class="card-actions justify-end">
+            </div flex>
+            <div><img src="images/stoppage.png" alt=""></div>
+            <h1>80K+</h1>
+            <p>Rental partners</p>
+          </div>
+        </div>
+       </div>
+       <br>
+       <br> 
+       <br>
+       <h1 class="text-4xl text-center font-bold">Best offers for you </h1>
+       <br>
+       <br>
+       <br>
+       <!-- best offers for you -->
+       <div class="flex gap-4">
+        <div class="flex w-1/2 border-2 h-52">
+          <div class="bg-yellow-500 w-2/3 rounded-lg text-center pt-10">
+            <h1 class="text-3xl font-bold">15% OFF</h1>
+            <h5 class="font-bold">on your next purchase</h5>
+            <p>use by january 2024</p>
+          </div>
+          <div class="bg-yellow-500 w-1/3 rounded-lg text-center pt-10">
+            <h1 class="text-3xl font-bold ">NEW15</h1>
+            <P>Coupon Code</P>
+          </div>
+         </div>
+         <!-- 2 best offer -->
+         <div class="flex w-1/2 border-2 h-52">
+          <div class="bg-red-500 w-2/3 rounded-lg text-center pt-10">
+            <h1 class="text-3xl font-bold">20% OFF</h1>
+            <h5 class="font-bold">on your next purchase</h5>
+            <p>use by January 2024</p>
+          </div>
+          <div class="bg-red-500 w-1/3 rounded-lg text-center pt-10">
+            <h1 class="text-3xl font-bold ">Couple 20</h1>
+            <P>Coupon Code</P>
+          </div>
+         </div>
+       </div>
+       <br>
+       <br>
+    </header>
+    <main >
+      <div class="w-1px flex justify-center p">
+       <button class="text-xl font-bold text-green-400 border-2 border-green-400 p-4 ">See all offers</button>
+      </div>
+      <br>
+      <br>
+      
+      <!-- main content is that  -->
+      <div class="bg-slate-200">
+        <div class="text-center">
+          <h1 class="text-xl font-bold">J.R Paribahan</h1>
+          <p>Yes, you can run unit tests and view the results directly within the app. <br> The integrated testing features allow for a streamlined .</p>
+        </div>
+
+       <div class="flex md:container md:mx-auto font-manrope rounded-xl">
+        <div class="bg-white w-2/3">
+          <div class="flex pt-16 gap-60 pl-28 ">
+            <div class="flex">
+              <div><img src="images/bus-logo.png" alt=""></div>
+              <div><h1 class="text-xl font-bold">HeavenLine Paribahan</h1>
+                <p>Coach-009-WEB ! AC_Business</p></div>
+            </div>
+            <div class="flex bg-green-200 rounded-lg pt-3 gap-2 ">
+              <div><img src="images/seat-green.png" alt=""></div>
+              <div class="flex gap-3">
+                <h1>0</h1>
+                <h1 class="text-lime-500">seats left</h1>
+              </div>
+            </div>
+            
+          </div>
+          <div class="pt-20 bg-slate-50 ps-8 rounded-2xl pb-20">
+            <div class="flex gap-96 pl-20">
+              <h1>Route</h1>
+              <h1>Dhaka-Sylhet</h1>
+            </div>
+            <hr>
+            <div class="flex gap-96 pl-20 pt-20 ">
+              <h1>Departure Time</h1>
+              <h1>9:00 PM</h1>
+            </div>
+            <hr>
+            <div class="flex justify-center gap-36 pt-20">
+              <div class="bg-slate-100">Boarding Point- Laxmipur</div>
+              <div class="bg-slate-100">Dropping Point - Bogura</div>
+              <div class="bg-slate-100">Est Time - 11 Hour</div>
+            </div>
+            
+          </div>
+        </div>
+        <!-- Taka part -->
+        <div class="bg-white w-1/3 grid justify-center gap-0">
+          <img src="images/fare.png" alt="">
+          <h1>500 Taka</h1>
+          <p>Per Seat</p>
+        </div>
+       </div>
+       <!-- Select your seat  -->
+        <!-- nave like select -->
+       
+        <!-- start the sit planing I will get it with the best regard of mine  -->
+        <div class="flex gap-12">
+         <div class="pt-12 pl-40">
+          <div class="flex gap-96">
+            <div class="flex">
+              <img src="images/seat-gray.png" alt="">
+              <h1>Available</h1>
+            </div>
+            <div class="flex">
+              <img src="images/seat-green-filled.png" alt="">
+              <h1>Selected</h1>
+            </div>
+          </div>
+          <div  class="grid grid-rows-2 grid-flow-col gap-4 pt-20">
+            <!-- 1 -->
+            <div class="stack">
+              <div class="text-center shadow-md w-20 card bg-base-200">
+                <div class="card-body">A1</div>
+              </div> 
+              <div class="text-center shadow w-16 card bg-base-200">
+                <div class="card-body">a1</div>
+              </div> 
+              <div class="text-center shadow-sm w-20 card bg-base-200">
+                <div class="card-body">a1</div>
+              </div>
+            </div>
+            <!-- 1 -->
+            <div class="stack">
+              <div class="text-center shadow-md w-20 card bg-base-200">
+                <div class="card-body">A2</div>
+              </div> 
+              <div class="text-center shadow w-16 card bg-base-200">
+                <div class="card-body">B</div>
+              </div> 
+              <div class="text-center shadow-sm w-20 card bg-base-200">
+                <div class="card-body">C</div>
+              </div>
+            </div>
+            <!-- 1 -->
+            <div class="stack">
+              <div class="text-center shadow-md w-20 card bg-base-200">
+                <div class="card-body">B1</div>
+              </div> 
+              <div class="text-center shadow w-16 card bg-base-200">
+                <div class="card-body">B</div>
+              </div> 
+              <div class="text-center shadow-sm w-20 card bg-base-200">
+                <div class="card-body">C</div>
+              </div>
+            </div>
+            <!-- 1 -->
+            <div class="stack">
+              <div class="text-center shadow-md w-20 card bg-base-200">
+                <div class="card-body">B2</div>
+              </div> 
+              <div class="text-center shadow w-16 card bg-base-200">
+                <div class="card-body">B</div>
+              </div> 
+              <div class="text-center shadow-sm w-20 card bg-base-200">
+                <div class="card-body">C</div>
+              </div>
+            </div>
+            <!-- 1 -->
+            <div class="stack">
+              <div class="text-center shadow-md w-20 card bg-base-200">
+                <div class="card-body">A3</div>
+              </div> 
+              <div class="text-center shadow w-16 card bg-base-200">
+                <div class="card-body">B</div>
+              </div> 
+              <div class="text-center shadow-sm w-20 card bg-base-200">
+                <div class="card-body">C</div>
+              </div>
+            </div>
+            <!-- 1 -->
+            <div class="stack">
+              <div class="text-center shadow-md w-20 card bg-base-200">
+                <div class="card-body">A4</div>
+              </div> 
+              <div class="text-center shadow w-16 card bg-base-200">
+                <div class="card-body">B</div>
+              </div> 
+              <div class="text-center shadow-sm w-20 card bg-base-200">
+                <div class="card-body">C</div>
+              </div>
+            </div>
+            <!-- 1 -->
+            <div class="stack">
+              <div class="text-center shadow-md w-20 card bg-base-200">
+                <div class="card-body">B3</div>
+              </div> 
+              <div class="text-center shadow w-16 card bg-base-200">
+                <div class="card-body">B</div>
+              </div> 
+              <div class="text-center shadow-sm w-20 card bg-base-200">
+                <div class="card-body">C</div>
+              </div>
+            </div>
+            <!-- 1 -->
+            <div class="stack">
+              <div class="text-center shadow-md w-20 card bg-base-200">
+                <div class="card-body">B4</div>
+              </div> 
+              <div class="text-center shadow w-16 card bg-base-200">
+                <div class="card-body">B</div>
+              </div> 
+              <div class="text-center shadow-sm w-20 card bg-base-200">
+                <div class="card-body">C</div>
+              </div>
+            </div>
+          </div>
+         </div>
+          <!-- Select your Seat -->
+          <div class="pt-10 pb-36">
+            <h1 class="text-2xl font-bold">Select Your Seat</h1>
+            <div class="bg-slate-50 rounded-lg">
+             <div class="pl-4 pr-4">
+              <div class="flex gap-96 text-xl">
+                <div>Seat</div>
+                <div>Class</div>
+                <div>Fare</div>
+              </div>
+              <hr>
+              <div class="flex gap-96">
+                <div>
+                  <h1>A2</h1>
+                  <h1>A2</h1>
+                  <h1>B1</h1>
+                  <h1>B2</h1>
+                </div>
+                <div>
+                  <h1>economy</h1>
+                  <h1>economy</h1>
+                  <h1>economy</h1>
+                  <h1>economy</h1>
+                </div>
+                <div>
+                  550
+                </div>
+              </div>
+              <hr>
+             </div>
+              <h2 class="text-xl font-bold pl-4">Total Price </h1>
+              <div class="pl-40">
+                <div class="card w-96 bg-base-100 shadow-xl">
+                  <div class="card-body">
+                    <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs"  />
+                    <div class="card-actions justify-end">
+                      <button class="btn btn-primary">Apply</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h1 class="text-xl font-bold pl-4 pb-5">Grand Total </h1>
+            </div>
+            <!-- end -->
+            <div class="pt-6">
+              <button class="btn glass w-full bg-green-500 ">Next</button>
+            </div>
+          </div>
+        </div>
+ 
+    </main>
+    <footer>
+      <footer class="footer footer-center p-10 bg-black text-primary-content">
+        <aside>
+         <div class="bg-white rounded-lg">
+          <img src="images/bus-logo.png" alt="">
+         </div>
+          <p class="font-bold">
+            JR Paribahan Ltd. <br>Jr-Ticket is a digital platform to make your daily commuting better.
+          </p> 
+          <p>Copyright © 2024 - All right reserved</p>
+        </aside> 
+        <nav>
+          <div class="grid grid-flow-col gap-4">
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+          </div>
+        </nav>
+        <div>
+          <h1>Download our app</h1>
+          <img src="images/playstore.png" alt="">
+        </div>
+      </footer>
+    </footer>
+</body>
+</html>
