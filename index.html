@@ -204,102 +204,14 @@
             </div>
           </div>
           <div  class="grid grid-rows-2 grid-flow-col gap-4 pt-20">
-            <!-- 1 -->
-            <div class="stack">
-              <div class="text-center shadow-md w-20 card bg-base-200">
-                <div class="card-body">A1</div>
-              </div> 
-              <div class="text-center shadow w-16 card bg-base-200">
-                <div class="card-body">a1</div>
-              </div> 
-              <div class="text-center shadow-sm w-20 card bg-base-200">
-                <div class="card-body">a1</div>
-              </div>
-            </div>
-            <!-- 1 -->
-            <div class="stack">
-              <div class="text-center shadow-md w-20 card bg-base-200">
-                <div class="card-body">A2</div>
-              </div> 
-              <div class="text-center shadow w-16 card bg-base-200">
-                <div class="card-body">B</div>
-              </div> 
-              <div class="text-center shadow-sm w-20 card bg-base-200">
-                <div class="card-body">C</div>
-              </div>
-            </div>
-            <!-- 1 -->
-            <div class="stack">
-              <div class="text-center shadow-md w-20 card bg-base-200">
-                <div class="card-body">B1</div>
-              </div> 
-              <div class="text-center shadow w-16 card bg-base-200">
-                <div class="card-body">B</div>
-              </div> 
-              <div class="text-center shadow-sm w-20 card bg-base-200">
-                <div class="card-body">C</div>
-              </div>
-            </div>
-            <!-- 1 -->
-            <div class="stack">
-              <div class="text-center shadow-md w-20 card bg-base-200">
-                <div class="card-body">B2</div>
-              </div> 
-              <div class="text-center shadow w-16 card bg-base-200">
-                <div class="card-body">B</div>
-              </div> 
-              <div class="text-center shadow-sm w-20 card bg-base-200">
-                <div class="card-body">C</div>
-              </div>
-            </div>
-            <!-- 1 -->
-            <div class="stack">
-              <div class="text-center shadow-md w-20 card bg-base-200">
-                <div class="card-body">A3</div>
-              </div> 
-              <div class="text-center shadow w-16 card bg-base-200">
-                <div class="card-body">B</div>
-              </div> 
-              <div class="text-center shadow-sm w-20 card bg-base-200">
-                <div class="card-body">C</div>
-              </div>
-            </div>
-            <!-- 1 -->
-            <div class="stack">
-              <div class="text-center shadow-md w-20 card bg-base-200">
-                <div class="card-body">A4</div>
-              </div> 
-              <div class="text-center shadow w-16 card bg-base-200">
-                <div class="card-body">B</div>
-              </div> 
-              <div class="text-center shadow-sm w-20 card bg-base-200">
-                <div class="card-body">C</div>
-              </div>
-            </div>
-            <!-- 1 -->
-            <div class="stack">
-              <div class="text-center shadow-md w-20 card bg-base-200">
-                <div class="card-body">B3</div>
-              </div> 
-              <div class="text-center shadow w-16 card bg-base-200">
-                <div class="card-body">B</div>
-              </div> 
-              <div class="text-center shadow-sm w-20 card bg-base-200">
-                <div class="card-body">C</div>
-              </div>
-            </div>
-            <!-- 1 -->
-            <div class="stack">
-              <div class="text-center shadow-md w-20 card bg-base-200">
-                <div class="card-body">B4</div>
-              </div> 
-              <div class="text-center shadow w-16 card bg-base-200">
-                <div class="card-body">B</div>
-              </div> 
-              <div class="text-center shadow-sm w-20 card bg-base-200">
-                <div class="card-body">C</div>
-              </div>
-            </div>
+            <div  class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"><button onclick="mathPart()" class="add-btn">A1</button></div> 
+            <div  class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"><button class="add-btn">B2</button></div> 
+            <div  class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"><button class="add-btn">A2</button></div> 
+            <div  class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"><button class="add-btn">B2</button></div> 
+            <div  class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"><button class="add-btn">A3</button></div> 
+            <div  class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"><button class="add-btn">B3</button></div> 
+            <div  class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"><button class="add-btn">A4</button></div> 
+            <div  class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"><button class="add-btn">B4</button></div> 
           </div>
          </div>
           <!-- Select your Seat -->
@@ -308,20 +220,20 @@
             <div class="bg-slate-50 rounded-lg">
              <div class="pl-4 pr-4">
               <div class="flex gap-96 text-xl">
-                <div>Seat</div>
+                <div class="flex gap-4 ">Seat <h2 id="cart-count" class="bg-lime-400 rounded-2xl">0</h2></div>
                 <div>Class</div>
                 <div>Fare</div>
               </div>
               <hr>
               <div class="flex gap-96">
                 <div>
-                  <h1>A2</h1>
+                  <h1 class="gap-32">A2</h1>
                   <h1>A2</h1>
                   <h1>B1</h1>
                   <h1>B2</h1>
                 </div>
                 <div>
-                  <h1>economy</h1>
+                  <h1>economy </h1>
                   <h1>economy</h1>
                   <h1>economy</h1>
                   <h1>economy</h1>
@@ -377,5 +289,6 @@
         </div>
       </footer>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
